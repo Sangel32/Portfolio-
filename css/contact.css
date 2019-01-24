@@ -1,0 +1,15 @@
+.container{
+    font-family: var(--fancyFont);
+    color: orange;
+    margin-right: auto;
+    margin-left: auto;
+    width: 250px;
+}
+
+.row{
+    text-align: center;
+}
+h4{
+    text-align: center;
+    left: -110px;
+}

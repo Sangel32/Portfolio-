@@ -1,0 +1,27 @@
+
+.text{
+    color: orange;
+}
+
+h3{
+    margin-top:70px;
+    color: orange;
+}
+
+img{
+    margin-top: 76px;
+}
+p{
+    margin-top: 35px;
+    color: silver;
+}
+#resume{
+    border: solid .5px silver;
+    color: white;
+    padding: 6px;
+    border-radius: 20px;
+    background-color: orange;
+    text-decoration: none;
+    margin-left: -1190px;
+
+}

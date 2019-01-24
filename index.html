@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sebastian</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Courgette|Exo+2" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+
+    
+</head>
+<body>
+     <header>
+
+      <!--Jumbotron-->
+<div class="jumbotron jumbotron-fluid" id="jumbotronOne">
+    <h1>Sebastian Angel</h1>
+    <p class="lead">JavaScript Student</p>
+  </div>
+  
+  <!--navbar-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top id=top">
+   <a class="navbar-brand" href="#">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="nav navbar-nav" id="nav-content"> 
+    <li class="nav-item active">
+   <a class="nav-link" id="navlink" href="#about">About<span class="sr-only">(current)</span></a> 
+  </li>
+ <li class="nav-item">
+   <a class="nav-link" id="navlink" href="#portfolio">Portfolio</a>
+  </li>
+ <li class="nav-item">
+   <a class="nav-link" id="navlink" href="#contact">Contact</a> 
+    </li>
+   </ul>
+  </div>
+</nav>
+
+
+
+
+
+
+   
+<!-- About Section-->
+<div class="row">
+    <div class="col-lg-3 col-md-4 col-sm-12">
+     <img src="SA.png" class="img-fluid">
+     <span class="text">JavaScript Student</span>
+    </div> 
+    <div class="col-lg-8 col-md-8 col-sm-10 desc">
+        <a href="Resume1 (1).pdf" id="resume" class="infoSec" download>Download My Resume</a>
+      
+     <h3>About Me</h3>
+     <p>
+       I'm a JavaScript Student with a background in Business Management. I have always had an interest in the Tech Industry and that's why I find myself learning new skills in the development world.
+      Some of my interests include visiting National/State Parks and spending time with friends and family.
+     </p>
+    </div>
+   </div>
+<!--Portfolio Section-->
+<div class="portfolio">
+    <h1 class="text-center">Portfolio</h1>
+    <h2>Recent Work</h2>
+<div class="flex-container">
+ <div class="row">
+  <div class="column">
+   <img src="creature.jpg">
+   <div class="text"><a href="https://codepen.io/sangel32/pen/xmzOKB" target=_blank class="projectBtn">CSS Creature</a></div>
+  </div>
+  <div class="column">
+   <img src="Tweb.jpg">
+   <p class="text"><a href="file:///Users/sebastianangel/Desktop/JavaScriptJan2019/JavaScriptLibrary/TutorialWebpage/index.html" target=_blank class="projectBtn1">Tutorial Webpage</a></div>
+  <div class="column">
+   <img src="API.png">
+   <p class="text"><a href="file:///Users/sebastianangel/Desktop/JavaScriptJan2019/JavaScriptLibrary/2-javaScript-Projects/API%20Project/index.html" target=_blank class="projectBtn1">API</a><div>
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+<!--Contact Section-->
+<div class="container">
+        <h4 class="text-center text-uppercase">Contact Me</h4>
+        <div class="row">
+          <form action="https://formspree.io/Sangelmata32@gmail.com" method="POST">
+            <div class="control-group">
+              <div class="form-group">
+                <label class=>Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Your Name"
+                  id="name"
+                  required
+                  data-validation-required-message="Please enter your name"
+                  name="name"
+                  >
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group">
+                <label>Email Address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Your Email"
+                  id="email"
+                  required
+                  data-validation-required-message="Please enter your email"
+                  name="_replyto"
+                >
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group">
+                <textarea
+                  class="form-control"
+                  rows="7"
+                  placeholder="Your Message"
+                  id="message"
+                  required
+                  data-validation-required-message="Please leave a message"
+                  name="message"
+                ></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="text-center">
+              <div id="success"></div>
+              <button type="submit" class="btn btn-lg btn-black">
+                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                Send Message
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!--Footer-->
+      <footer class="site-footer">
+          <div id="footer-content">
+            <p>Copyright 2019 @ Domain - All Rights Reserved </p>
+          </div>
+        </footer>
+          
+<!--Javascript Tags-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" 
+integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" 
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" 
+integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" 
+crossorigin="anonymous"></script>
+<script type="text/javascript" src='js/main.js'></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+.portfolio{
+    margin: 8em 0;
+    position: relative; 
+    color: orange;
+  
+   }
+   .portfolio h1{
+    color:orange;
+    margin: 2em; 
+   }
+   .portfolio img{
+     height: 20rem;
+     width: 100%;
+     margin: 1em;
+  
+   }
+.column{
+  float: left;
+  text-align: left;
+  width:33.3%;
+  display: flex;
+}
+h2{
+  font-size: 40px;
+  text-align: center;
+  color: silver;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.text{
+  font-size: 30px;
+  padding: 30px 32px;
+}
+.creature{
+text-align: left;
+}
+.projectBtn{
+  text-align: left;
+  position: relative;
+  left: -250px;
+  top: 150px;
+}
+.projectBtn1{
+  position: relative;
+  left: -220px;
+  top: 120px;
+}

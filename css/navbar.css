@@ -1,0 +1,19 @@
+.navbar{
+    background-image: url(2.jpg); 
+}
+.navbar-brand{
+    float: right;
+    margin-top: 15px;
+    font-family: var(--fancyFont);
+}
+
+.navbar-link{
+    font-family: var(--sansSerifFont);
+    float: right;
+}
+.nav-item{
+    float: right;
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
